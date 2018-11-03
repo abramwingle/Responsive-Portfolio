@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/backgroundImage.jpg");
+    background-repeat: repeat;   
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times, serif;
+}
+
+.navBar {
+    background-color: white;
+    margin-top: 25px;
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px, solid #cccccc;
+    z-index: 1;
+      
+}
+
+.nameTitle {
+    background-color: teal;
+    width: 273.6px;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 240px;
+    color: white;
+    float: left;
+}
+ 
+.navButtons {
+    
+  
+    width: 240px;
+    margin-top: -76px;
+    float: right;
+    margin-right: 215px;
+    border-bottom: 1px, solid, #cccccc;
+    line-height: 75px;
+    text-align: right;
+    z-index: 2;
+    
+}
+
+    a:link { color: #777777; }    
+    a:visited { color: #777777; }
+    a:hover { color: teal; }
+    a:active { color: #666666; }
+
+.button1, .button2, .button3 {
+    padding: 10px;
+    
+}
+
+.button1, .button2 {
+    border-right: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+}
+
+#profilePicture {
+    float: left;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.aboutMeHeader {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 75px;
+    color: teal;
+}
+
+.aboutMe {
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: 240px;
+    margin-bottom: 85px;
+    border: 2px, solid, #dddddd;    
+}
+
+.lineBelowAboutMe {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #cccccc;
+    width: 860px;
+    height: 2px;  
+}
+
+.bioText {
+    
+    line-height: 40px;
+    padding: 50px;
+    color: #777777;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    line-height: 50px;
+    border-top: 8px solid #4aaaa5;
+
+}
+
+.contactBox {
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 890px;
+    margin-bottom: 85px;
+    border: 2px, solid, #dddddd; 
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;  
+       
+}
+
+label {
+    line-height: 40px;
+}
+
+#nameBox {
+    line-height: 20px;
+    width: 900px;
+}
+
+#emailBox {
+    line-height: 20px;
+    width: 900px;
+}
+
+#messageBox {
+    line-height: 200px;
+    width: 900px;
+    
+    
+}
+
+.submitButton {
+    margin-top: 9px;
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: teal; 
+    margin-left: 0px;
+    padding: 15px;
+}
+
+.submitButton:link { color: white; }    
+.submitButton:visited { color: white; }
+.submitButton:hover { color: black; }
+.submitButton:active { color: #666666; }
+
+input {
+    
+    font-size: 18px;
+}
+
+.portfolioBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+    
+    margin: 10px;
+    width: 250px;
+    height: 180px;
+}
+
+ #box1 {
+    background-image: url("../images/box1.jpeg");
+
+ }
+
+ #box1 a:link, #box2 a:link, #box3 a:link, #box4 a:link, #box5 a:link {
+     color: white;  
+     text-decoration: none;
+ }
+
+ #box1 a:active, #box2 a:active, #box3 a:active, #box4 a:active, #box5 a:active  {
+     color:white;
+     text-decoration: none;
+ }
+
+ #box1 a:visited,  #box2 a:visited,  #box3 a:visited,  #box4 a:visited,  #box5 a:visited {
+    color: beige;
+    text-decoration: none;
+ }
+ #box1 a:hover, #box2 a:hover, #box3 a:hover, #box4 a:hover, #box5 a:hover {
+     color: black;
+     text-decoration: underline;
+ }
+
+ #box2 {
+    background-image: url("../images/box2.jpeg");
+ }
+
+ #box3 {
+    background-image: url("../images/box3.jpeg");
+ }
+
+ #box4 {
+    background-image: url("../images/box4.jpeg");
+ }
+
+ #box5 {
+    background-image: url("../images/box5.jpeg");
+ }
+
+.boxBanner1 {
+
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 125px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 980px) {
+
+
+
+    .nameTitle {
+        margin-left: 50px;
+    
+    }
+
+    .navButtons {
+        margin-right: 50px;
+    }
+
+    .aboutMe {
+
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    .lineBelowAboutMe {
+        width: 500px;
+
+
+    }
+
+    .contactBox {
+        width: 500px;
+    }
+
+    #nameBox {
+        width: 500px;
+    }
+
+    #emailBox {
+        width: 500px;
+    }
+
+    #messageBox {
+        width: 500px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  
+    .nameTitle {
+        margin-left: 50px;
+      
+    }
+
+    .navButtons {
+        margin-right: 50px;
+    }
+
+    .aboutMe {
+
+        width: 550px;
+        margin-left: 50px;
+    }
+
+    .lineBelowAboutMe {
+        width: 450px;
+
+
+    }
+
+    .contactBox {
+        width: 450px;
+    }
+
+    #nameBox {
+        width: 450px;
+    }
+
+    #emailBox {
+        width: 450px;
+    }
+
+    #messageBox {
+        width: 450px;
+    }
+
+
+    #profilePicture {
+        width: 300px;
+        height: 202px;
+        
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:640px) {
+
+    .nameTitle {
+    
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+
+    .navButtons {
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 100%;     
+        background-color: white;
+        clear: both;
+        text-align: center;
+    }
+
+    .aboutMe {
+
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .lineBelowAboutMe {
+        width: 75%;
+
+
+    }
+
+    .contactBox {
+        width: 80%;
+    }
+
+    #nameBox {
+        width: 100%;
+    }
+
+    #emailBox {
+        width: 100%;
+    }
+
+    #messageBox {
+        width: 100%;
+    }
+
+
+    #profilePicture {
+        width: 75%;
+        padding: 50px;
+        
+        
+        
+    }
+
+    .portfolioBox {
+        width: 100%;
+        float: auto;
+        margin-top: 10px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5 {
+    
+        padding: 10px;
+        width: 250px;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+    
+    }
+
+}
